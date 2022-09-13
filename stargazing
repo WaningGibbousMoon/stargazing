@@ -42,8 +42,13 @@ case $1 in
             xcalib -co 30 -alter
             exit 1       
         ;;
-        *)
-                echo "$0 [on | dim | inv | off]"
+	rshft)
+	   # Make the screen a little red-shifted
+	   xcalib -red 1.0 10 100 -alter
+	   exit 1
+	;;
+	*)	
+                echo "$0 [on | dim | inv | rshft | off]"
                     exit 1
         ;;
 esac
