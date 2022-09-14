@@ -10,7 +10,7 @@ The xcalib application works only with X11, so it is not functional on Wayland s
 * bash
 
 ### Install
-* Download the script: wget https://raw.githubusercontent.com/victorhck/stargazing/master/stargazing
+* Download the script: wget https://raw.githubusercontent.com/WaningGibbousMoon/stargazing/master/stargazing
 * Execution permissions: chmod +x stargazing
 * Run the following commando to run the script and see the options available: ./stargazing *
 
